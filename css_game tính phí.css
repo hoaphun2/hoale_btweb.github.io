@@ -1,0 +1,462 @@
+*
+    {
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .header {
+    background-image: url("ảnh nền.gif.jpg");
+    margin: 10px 15px 10px 15px;
+    padding: 30px;
+    background-color: #7a7373;
+    border: 1px solid #fff;
+    width: 97%;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    width: 30%;
+  } 
+
+  .login {
+    font-size: 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .tieude {
+    font-size: 50px;
+    color: black;
+  }
+  .root > li {
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+  }
+  .root li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+  }
+  .menu_web {
+    width: 100%;
+    height: 50px;
+    background-color: #70766d;
+    margin: 0px auto;
+    font-size: 22px;
+  }
+  
+  .root > li > a:hover {
+    background-color: rgb(170, 178, 154);
+    color: rgb(248, 247, 244);
+    transform: ease-in 0.35s;
+  }
+  .submenu {
+    width: 250px;
+    background-color: #a7abac;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+  }
+  .submenu li {
+    list-style: none;
+  }
+  .submenu li a {
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 12px;
+  }
+  .root > li:hover .submenu {
+    display: block;
+    background-color: #b6cacf;
+    color: palevioletred;
+    transform: ease-in 0.35s;
+  }
+  .submenu > li > a:hover {
+    background-color: rgb(211, 212, 210);
+    color: white;
+    transform: ease-in 0.35s;
+  }
+  .main {
+    background-image: url();
+    width: 100%;
+
+  }
+  .main img {
+
+    width: 200px;
+    height: 20%;
+  }
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+  }
+  body{
+      background: #5d5555;
+      font-family: 'Poppins', sans-serif;
+      height: 0vh;
+  }
+  .container{
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/b.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+  }
+  
+  ul.navbar{
+      display: flex;
+      list-style: none;
+  }
+  ul.navbar li{
+      width: 120px;
+  }
+  ul.navbar li a{
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+  }
+  ul.navbar li a.active{
+      color: #FEC53A;
+  }
+  ul.navbar li a:hover:not(.active){
+      color: #FEC53A;
+  }
+  #btn{
+      width: 250px;
+      height: 10vh;
+      background: #FEC53A;
+      color: #000;
+      outline: none;
+      border: none;
+      clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: right;
+      padding-right: 40px;
+  }
+  #btn .fas{
+      margin-right: 10px;
+  }
+  
+ 
+  
+  .section-1{
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+      url();
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+  
+  }
+  .section-1-wrapper{
+      width: 70%;
+      margin: auto;
+  }
+  .section-1 h1{
+      width: 500px;
+      color: #FEC53A;
+      font-size: 1.5rem;
+      position: relative;
+      font-weight: 400;
+  }
+  .section-1-img{
+      display: flex;
+  }
+  .section-1-img .img{
+      width: 100px;
+      height: 130px;
+      background: url("Elden_Ring_Box_art.jpg");
+      background-size: cover;
+      background-position: center;
+      margin-right: 10px;
+      border-radius: 10px;
+  }
+  .section-1-img .img-2{
+      background: url("overcooked2.jfif");
+      background-size: cover;
+      background-position: center;
+  }
+  .section-1-img  .img-3{
+      background: url("dark souls 3.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+  .section-1-img  .img-4{
+      background: url("Bayonetta_box_artwork.png");
+      background-size: cover;
+      background-position: center;
+  }
+  .section-1-img  .img-5{
+      background: url("Devil_May_Cry_5.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+  .section-1-img  .img-6{
+      background: url("nieR Automata.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+  .img:hover{
+      transform: translateY(-10px);
+  }
+  
+  /* Section 3 starts here */
+  .game-categories{
+      width: 70%;
+      margin: 50px auto;
+      position: relative;
+  }
+  .game-categories h1{
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #FEC53A;
+  }
+  .game-wrapper{
+      display: flex;
+  }
+  .gw{
+      width: 120px;
+      height: 120px;
+      background: url();
+      background-size: cover;
+      background-position: center;
+      margin: 20px 15px 0 0;
+      border-radius: 10px;
+  }
+  .gw:hover{
+      transform: translateY(-10px);
+  }
+  .left{
+      position: relative;
+      right: -140px;
+  }
+  
+  .gw-1{
+      background: url("Elden_Ring_Box_art.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+  .gw-2{
+      background: url("overcooked2.jfif");
+      background-size: cover;
+      background-position: center;
+  }
+  .gw-3{
+      background: url("dark souls 3.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+  .gw-4{
+      background: url("Bayonetta_box_artwork.png");
+      background-size: cover;
+      background-position: center;
+  }
+  .gw-5{
+      background: url("Devil_May_Cry_5.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+  .gw-6{
+      background: url("nieR Automata.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+  .gw-7{
+      background: url();
+      background-size: cover;
+      background-position: center;
+  }
+  .gw-8{
+      background: url();
+      background-size: cover;
+      background-position: center;
+  }
+  .gw-9{
+      background: url();
+      background-size: cover;
+      background-position: center;
+  }
+
+  .players{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .p-image{
+      width: 200px;
+      height: 200px;
+      background: url();
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+      position: relative;
+  }
+  .p-image-1::after{
+      content: 'VS';
+      position: absolute;
+      right: -35px;
+      bottom: 0;
+      font-size: 2rem;
+      color: #FEC53A;
+  }
+  .players span{
+      font-size: 1.5rem;
+      color: #FEC53A;
+      font-weight: bold;
+      margin-bottom: 10px;
+  }
+  .stars{
+      color: #FEC53A;
+  }
+  .p-image-2{
+      background: url();
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .p-image-2{
+      background: url();
+      background-size: cover;
+      background-position: center;
+  }
+  .p-image-3::after{
+      content: 'VS';
+      position: absolute;
+      right: -35px;
+      bottom: 0;
+      font-size: 2rem;
+      color: #FEC53A;
+  }
+  .p-image-4{
+      background: url();
+      background-size: cover;
+      background-position: center;
+  }
+  /* section 3 starts here */
+  
+  .section-3{
+      width: 100%;
+      height: 80vh;
+      background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url();
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+  }
+  .section-3 h1{
+      font-size: 2rem;
+      color: #fff;
+      text-align: center;
+      font-weight: 400;
+  }
+  
+  .section-3-wrapper{
+      display: flex;
+      min-height: 70vh;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .feedback{
+      width: 250px;
+      height: 300px;
+      background: url();
+      background-position: center;
+      background-size: cover;
+   
+  }
+  .feedback-desc{
+      width: 300px;
+      height: 300px;
+      background: rgba(0, 0, 0, 0.767);
+      padding: 10px;
+      color: #fff;
+      margin-right: 10px;
+  }
+  .feedback-desc .far{
+      color: #FEC53A;
+      font-size: 30px;
+  }
+  .f-img-2{
+      background: url();
+      background-position: center;
+      background-size: cover;
+  }
+/* FOoter section */
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 0;
+    background-color: #FEC53A;
+    color: #000;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
